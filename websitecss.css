@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman';
+}
+
+body{
+    background-color: rgb(177, 69, 51);
+}
+
+.container{
+    width:80%;
+    height:auto;
+    margin:auto;
+    background-color:rgb(94, 24, 24);
+    color: white;
+}
+
+
+header{
+    width:100%;
+    height: 70px;    
+}
+
+#lefthead{
+    font-size:30px;
+    line-height: 60px;   
+    margin-left: 20px; 
+    color: rgb(204, 101, 32);
+    float:left;
+    
+}
+
+#layer{
+    font-size:30px;
+    line-height: 60px;   
+    margin-left:110px;     
+    
+}
+
+#righthead{
+    float:right;
+    margin-top: -40px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.welcome{
+    background-color: rgb(199, 142, 58);
+    width:100%;
+    height:300px;
+    
+}
+
+.welcome img{
+    float:left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.img2{
+    float:right;
+    margin-top: -280px;
+    margin-right: 20px;
+}
+
+.subwelcome{    
+    width:70%;
+    height:200px;
+    margin: auto;
+    padding-top: 90px;;
+}
+
+.subwelcome h1{
+    color: rgb(148, 84, 0);
+}
+
+.subwelcome input{
+    background-color: rgb(80, 43, 0);
+    color:#fff;
+}
+
+.navibar{
+    width:100%;
+    height:55px;
+    background-color: rgb(65, 49, 31);
+    margin-top:10px;    
+}
+
+nav{
+    margin-left:35px;
+}
+
+.navibar ol li{
+    display: inline-block;
+    width:155px;
+    margin: 5px; 
+    text-align: center;
+    padding-top:12px;
+    padding-bottom:12px;
+    font-weight:bold;
+    border:1px solid pink;
+    border-radius: 20px;
+    background-color: rgba(53, 33, 2 );    
+}
+
+.active{
+    color:yellow;
+    
+}
+
+.navibar ol li:hover{
+    display: inline-block;
+    width:155px;
+    margin: 5px; 
+    text-align: center;
+    padding-top:12px;
+    padding-bottom:12px;
+    font-weight:bold;
+    border:1px solid pink;
+    border-radius: 20px;
+    background-color: rgba(53, 33, 2 );  
+    color:yellow;  
+}
+
+
+.main{
+    width:100%;
+    height:700px;
+    margin-top: 10px;
+}
+
+.aside{
+    float: left;
+    width:24%;
+    height:auto;
+}
+
+.aside1{
+    height:50px;
+}
+
+
+.aside1>h3, .aside2 h3{
+    border:1px solid white;
+    background-color: #fff;
+    color:rgb(121, 74, 14);
+    text-align:center;
+}
+
+.form{
+    margin-top:15px;
+    float:right;
+}
+.aside>.aside1>.form form tr{
+    float:right;
+
+}
+
+.aside>.aside1>.form form tr td{
+    color:rgb(196, 116, 70);
+
+}
+
+.aside>.aside1>.form form tr td input{
+    border: 1px solid rgba(196, 116, 70);
+    background-color:rgba(0,0,0,0.1);
+    color: white;
+    
+}
+
+.aside>.aside1>.form form tr td input[value=Login]{
+    border: 1px solid rgba(196, 116, 70);
+    background-color:rgba(0,0,0,0.1);
+    color:rgba(196, 116, 70);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size:16px;
+    cursor: pointer;
+}
+
+.aside2{
+    margin-top: 70px;
+}
+
+.aside2content{
+    margin: 10px;
+}
+
+.aside2content h1{
+    font-size:20px;
+    color:darkorange;
+}
+
+.aside2>.aside2content>.logo img{
+    margin-top:10px;
+    width:100px;
+    height:30px;
+}
+
+.aside2>.aside2content input{
+    color:white;
+    background-color: rgb(65, 49, 31);
+    float:left;
+    margin-top: 30px;
+    
+    
+}
+
+article{
+    float:right;
+    width:74%;
+    margin-right: 5px;
+    margin-left:5px;
+}
+
+.top>h3, .rbottom>h3, .lbottom>h3{
+    color:darkorange;
+}
+
+.top{
+    width:100%;
+    height:auto;
+    margin-bottom: 5px;
+}
+
+.top>h3{
+    background-color: black;
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
+
+.album1, .album2, .album3{
+    margin: 10px;
+    margin-right: 100px;
+    float:left;
+}
+
+.top>.album>.album1>img, .top>.album>.album2>img, .top>.album>.album3>img {
+    width:150px;
+    height: 150px;
+}
+
+.top>.album>.album1>h3, .top>.album>.album2>h3, .top>.album>.album3>h3 {
+    color:darkorange;
+}
+
+.top>.album>.album1>input, .top>.album>.album2>input, .top>.album>.album3>input {
+    color:white;
+    background-color:rgb(65, 49, 31);
+    border-bottom: 1px solid white;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 3px;
+}
+.rbottom{
+    float:left;
+    margin-right: 25px;
+    width:45%; 
+}
+
+.rbottom>h3{
+    background-color: black;
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
+
+.rbottom>.newstitle{
+    margin: 10px;   
+}
+
+.rbottom>.newstitle>.news1, .rbottom>.newstitle>.news2{
+    margin-top: 30px ;
+}
+
+.rbottom>.newstitle>.news1>.img img, .rbottom>.newstitle>.news2>.img img{
+    width:100px;
+    height:100px;
+    float:left;
+    margin-right: 5px;
+}
+
+.rbottom>.newstitle>.news1>.info h4, .rbottom>.newstitle>.news2>.info h4{
+    color:darkgoldenrod;
+}
+
+.rbottom>.newstitle>.news1>.info blockquote, .rbottom>.newstitle>.news2>.info blockquote{
+    color:gray;
+    font-size: 12px;
+}
+
+.rbottom>.newstitle>.news1>.info p>a, .rbottom>.newstitle>.news2>.info p>a{
+    color: gray;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+.rbottom>.newstitle input{
+    color:white;
+    background-color: rgb(65, 49, 31);
+    float:left;
+    margin-top: 30px;
+    margin-left: -105px;
+    
+}
+
+.lbottom{
+    float:left;
+    width:45%; 
+}
+
+.lbottom>h3{
+    background-color: black;
+    padding: 5px;
+    /* float:left; */
+    border-bottom: 1px solid white;
+}
+
+.lbottom>.download{
+    background-color:rgb(199, 142, 58);   
+}
+
+.lbottom>.download form table {
+    
+    width:100%;
+    height:50px;
+    border-bottom: 1px solid rgb(94, 24, 24);
+    margin-bottom: 10px;
+    color: black;
+    margin: 5px;
+}
+
+.lbottom>.download form table tr td input{
+    color: white;
+    background-color: rgb(94, 24, 24);
+    float: right; 
+    font-size:15px;
+}
+
+.lbottom>.download form table tr td{
+    padding: 7px;
+    border-bottom: 1px solid rgb(94, 24, 24) ;
+    
+}
+
+footer{
+width:100%;
+height:100px;
+background-color:rgb(199, 142, 58);
+text-align:center;
+}
+footer ol li{
+display:inline-block;
+width:65px;
+padding-top:25px;
+font-size:20px;
+}
+footer p{
+padding-top:15px;
+font-size:20px;
+}
+a{
+color:#6933fc;
+}
